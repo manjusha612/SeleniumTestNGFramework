@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<!-- Test automation project with functional tests for https://www.box.com functionality -->
+<suite name="UI Test Automation">
+    <test name="Create a new folder, then upload a file into it and delete the created folder">
+        <classes>
+            <class name="testscenarios.BoxLogin"/>
+            <class name="testscenarios.CreateFolder"/>
+            <class name="testscenarios.UploadFile"/>
+            <class name="testscenarios.DeleteCreatedFolder"/>
+            <class name="testscenarios.BoxLogout"/>
+        </classes>
+    </test>
+</suite>
